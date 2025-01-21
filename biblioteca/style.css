@@ -7,24 +7,20 @@
 }
 
 body{
-    background-color: #424242;
+    background-color: #FFFFFF;
     color: #FFFFFF;
     font-family: 'Times New Roman', Times, serif;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #1E88E5;
-    align-items: center;
+header{
     width: 100%;
-    box-shadow: 0px 1px 8px #1E88E5;
+    background-color:#1E88E5 ;
+    height: 80px;
+    display: flex;
+    box-shadow: 0px 1px 6px #1E88E5;
 }
-
-.header h1{
+header h1{
     display: flex;
     padding: 20px 20px;
     gap: 32px;
@@ -32,22 +28,27 @@ body{
 
 .menu ul{
     display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: flex-end;
 
 } 
-
-
-
 .menu ul li a{
     display: flex;
     color: #FFFFFF;
-    padding: 20px;
+    gap: 32px;
+    justify-content: end;
+    align-items: flex-end;
+    font-size: 20px;
+    margin: 0 15px;   
 }
 .menu ul a li:hover{
     font-weight:bolder;
 }
 
 .login, .cadastro{
-    background-color: #363636;
+    background-color: #1E88E5;
     margin: 50px ;
     width: 340px;
     display: flex;
@@ -93,24 +94,12 @@ button:hover{
 
 .produtos{
     justify-content: center;
-    align-items: center;
     margin: 20px 40px;
-    display: flex;
 
 }
 .produto1{
-    display: block;
+    display: flex;
     padding: 10px;
-    
+
 }
-.produto1 img{
-    margin: auto;
-    padding: 0px;
-    
-}
-.produto1 h2{
-    margin: 10px;
-}
-.produto1 p{
-    padding: 10px;
-}
+
