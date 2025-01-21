@@ -13,6 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 30px;
 }
 
 .header{
@@ -32,17 +33,15 @@ body{
 
 .menu ul{
     display: flex;
-
+    width: 100%;
 } 
-
-
 
 .menu ul li a{
     display: flex;
     color: #FFFFFF;
     padding: 20px;
 }
-.menu ul a li:hover{
+.menu ul li a:hover{
     font-weight:bolder;
 }
 
@@ -99,18 +98,20 @@ button:hover{
 
 }
 .produto1{
-    display: block;
+    display: grid;
+   
     padding: 10px;
-    
+    height: 400px;
 }
-.produto1 img{
-    margin: auto;
-    padding: 0px;
-    
-}
+
 .produto1 h2{
     margin: 10px;
+    margin-bottom: 0px;
 }
 .produto1 p{
     padding: 10px;
+}
+.consultoria{
+    margin: 300px 40px;
+
 }
