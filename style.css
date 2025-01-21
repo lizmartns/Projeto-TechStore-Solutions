@@ -115,3 +115,7 @@ button:hover{
     margin: 300px 40px;
 
 }
+
+.consultoria button{
+    align-items: center;
+}
