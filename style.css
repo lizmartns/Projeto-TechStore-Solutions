@@ -44,6 +44,7 @@ body{
     color: #FFFFFF;
     padding: 20px;
 }
+
 .menu ul li a:hover{
     font-weight:bolder;
 }
@@ -60,8 +61,39 @@ body{
     gap: 32px;
     border-radius: 8px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
 }
+
+.inicio, .inovacoes{
+    text-align: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.consultoria-inicio{
+    display: block;
+    text-align: center;
+    list-style: circle;
+}
+
+.consultoria-servicos{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 50px;
+    box-shadow: #000000;    
+}
+.consultoria-servicos-detalhes{
+    flex-direction: column;
+}
+.inovacoes{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: #76FF03;
+    padding: 80px;
+}
+
+
 form{
     width: 100%;
     display: flex;
@@ -96,15 +128,16 @@ button:hover{
 .produtos{
     justify-content: center;
     align-items: center;
-    margin: 20px 40px;
+    margin: 80px 40px;
     display: flex;
-
 }
+
 .produto1{
+    margin-top: 60px;
     display: grid;
-   
     padding: 10px;
     height: 400px;
+    margin: auto;
 }
 
 .produto1 h2{
@@ -114,6 +147,7 @@ button:hover{
 .produto1 p{
     padding: 10px;
 }
+
 .consultoria h2{
     text-align: center;
     justify-content: center;
