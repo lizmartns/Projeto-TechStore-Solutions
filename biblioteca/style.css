@@ -61,6 +61,7 @@ body{
     gap: 32px;
     border-radius: 8px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
 }
 
 .inicio, .inovacoes{
@@ -134,10 +135,11 @@ button:hover{
 
 .produto1{
     margin-top: 60px;
+    margin-bottom: 300px;
     display: grid;
     padding: 10px;
     height: 400px;
-    margin: auto;
+   
 }
 
 .produto1 h2{
